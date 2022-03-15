@@ -1,0 +1,5 @@
+不老上で実行
+ssh z44330r@flow-cx.cc.nagoya-u.ac.jp
+pjsub --interact -L rscgrp=cx-interactive,jobenv=singularity
+#module load singularity
+module load gcc/8.4.0 cuda/11.2.1 openmpi/4.0.5 singularity/3.7.1
