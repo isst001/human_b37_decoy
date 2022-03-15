@@ -1,8 +1,11 @@
 #!/bin/sh
+#PJM -L rscgrp=cx-share
 #PJM -L elapse=2:00:00
 #PJM -L jobenv=singularity
 #PJM -j
 #PJM -s
+##PJM -o ./2203060925_E1000XXXXX/sample_c/sample_c.out
+##PJM --spath ./2203060925_E1000XXXXX/sample_c/sample_c.stats
 
 LOGIN_NODE_EXEC_DIR="/home/z44331r"
 
