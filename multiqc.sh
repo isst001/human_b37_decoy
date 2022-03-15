@@ -24,7 +24,8 @@ singularity exec --bind $PWD:$PWD Germline_pipeline_v0.12.sif multiqc ${PJM_LOCA
 
 #xx.html
 
-cp -r ${exec_node_out_dir}/*.html ${login_node_out_dir}
+cp -r ${exec_node_out_dir}/multiqc_report.html ${login_node_out_dir}
+cp -r ${exec_node_out_dir}/multiqc_data/* ${login_node_out_dir}
 wait
 rm -rf ${PJM_LOCALDIR}/*
 
