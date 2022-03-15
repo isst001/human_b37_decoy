@@ -1,4 +1,5 @@
 #!/bin/sh
+#PJM -L rscgrp=cx-share
 #PJM -L elapse=2:00:00
 #PJM -L jobenv=singularity
 #PJM -j
